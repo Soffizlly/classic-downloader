@@ -1,0 +1,31 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Sky Theme (Light) -->
+    
+    <!-- Backgrounds -->
+    <SolidColorBrush x:Key="AppBackground" Color="#F0F8FF"/> <!-- Alice Blue -->
+    <SolidColorBrush x:Key="CardBackground" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="CardHoverBackground" Color="#E6F2FF"/>
+    
+    <!-- Text -->
+    <SolidColorBrush x:Key="TextPrimary" Color="#003366"/> <!-- Dark Blue -->
+    <SolidColorBrush x:Key="TextSecondary" Color="#5C7C99"/>
+    <SolidColorBrush x:Key="TextContrast" Color="#FFFFFF"/>
+    
+    <!-- Accent -->
+    <SolidColorBrush x:Key="AccentColor" Color="#0099FF"/> <!-- Sky Blue -->
+    <SolidColorBrush x:Key="AccentHover" Color="#33ADFF"/>
+    
+    <!-- Buttons -->
+    <SolidColorBrush x:Key="ButtonBackground" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="ButtonBorder" Color="#CCE5FF"/>
+    
+    <!-- Borders -->
+    <SolidColorBrush x:Key="BorderColor" Color="#CCE5FF"/>
+    <SolidColorBrush x:Key="DividerColor" Color="#E6F2FF"/>
+    
+    <!-- Status -->
+    <SolidColorBrush x:Key="SuccessColor" Color="#28A745"/>
+    <SolidColorBrush x:Key="ErrorColor" Color="#DC3545"/>
+    <SolidColorBrush x:Key="WarningColor" Color="#FFC107"/>
+</ResourceDictionary>
