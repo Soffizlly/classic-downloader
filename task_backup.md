@@ -1,0 +1,66 @@
+# Tareas del Proyecto: Aplicación Windows Nativa (Español/Inglés)
+
+- [x] Verificar entorno de desarrollo (dotnet/MSBuild) <!-- id: 0 -->
+- [x] Crear Plan de Implementación (`implementation_plan.md`) <!-- id: 1 -->
+- [/] Crear estructura del proyecto WPF <!-- id: 2 -->
+    - [x] Crear archivo de proyecto `MultiLangApp.csproj` <!-- id: 3 -->
+    - [x] Crear `App.xaml` y `App.xaml.cs` <!-- id: 4 -->
+    - [x] Crear `MainWindow.xaml` y `MainWindow.xaml.cs` <!-- id: 5 -->
+- [x] Implementar localización <!-- id: 6 -->
+    - [x] Crear gestor de localización (LocalizationManager) <!-- id: 8 -->
+    - [x] Implementar diccionarios de recursos (English/Spanish) <!-- id: 9 -->
+- [x] Fase 7: Refactorización (Solo Inspector) <!-- id: 47 -->
+    - [x] Eliminar Quick Editor UI <!-- id: 48 -->
+    - [x] Limpiar código C# (Handlers de guardado) <!-- id: 49 -->
+- [x] Crear script de construcción (`build.bat`) <!-- id: 10 -->
+- [x] Verificar y Ejecutar <!-- id: 11 -->
+- [x] Implementar Lógica de Negocio (Multimedia) <!-- id: 12 -->
+    - [x] Diseñar interfaz con pestañas (Convertidor / Descargador) <!-- id: 15 -->
+    - [x] Implementar Servicio de Herramientas Externas (FFMPEG/yt-dlp checker) <!-- id: 16 -->
+    - [x] Implementar Convertidor de Archivos (Wrapper FFMPEG) <!-- id: 17 -->
+    - [x] Implementar Descargador de YouTube (Wrapper yt-dlp) <!-- id: 18 -->
+- [x] Fase 2: "Classic Downloader" & Rediseño <!-- id: 19 -->
+    - [x] Rediseño UI Minimalista (Prioridad Descargador) <!-- id: 20 -->
+    - [x] Implementar soporte de Metadatos y Formatos Extendidos <!-- id: 21 -->
+    - [x] Agregar control de Carpeta de Salida <!-- id: 25 -->
+    - [x] Agregar sección SoundCloud (Recomendación Lucida.to) <!-- id: 22 -->
+- [x] Empaquetado y Distribución <!-- id: 13 -->
+    - [x] Crear script de publicación (`publish.bat`) <!-- id: 23 -->
+    - [x] Generar versión Portable (ZIP) <!-- id: 24 -->
+    - [x] Crear script de instalador (`setup.iss` para Inno Setup) <!-- id: 14 -->
+- [x] Fase 3: UX Avanzada (Feedback y Control) <!-- id: 26 -->
+    - [x] Diseño Responsivo (ViewBox / Layout fluido) <!-- id: 27 -->
+    - [x] Implementar Barra de Progreso y Logs en tiempo real <!-- id: 28 -->
+    - [x] Botón de Cancelar y Limpieza de recursos <!-- id: 29 -->
+    - [x] "Click to Browse" en zona de arrastre <!-- id: 30 -->
+- [x] Fase 4: Conversión Avanzada y Layout Fluido <!-- id: 31 -->
+    - [x] Refactor UI: Layout Fluido real (Eliminar ViewBox) <!-- id: 32 -->
+    - [x] Detección de Audio y opción "Añadir Carátula" <!-- id: 33 -->
+    - [x] Conversión Audio + Imagen -> Video (MP4) <!-- id: 34 -->
+    - [x] Selector de Resoluciones (144p - 4K + Custom) <!-- id: 35 -->
+- [x] Fase 6: Visor de Metadatos Avanzado (Split View) <!-- id: 41 -->
+    - [x] Dependencia FFProbe (Check & Path) <!-- id: 42 -->
+    - [x] Servicio FFProbe (Extracción XML/JSON completo) <!-- id: 43 -->
+    - [x] UI Split: Visor (Raw/Tree) vs Editor (Quick Tags) <!-- id: 44 -->
+    - [x] UI Split: Visor (Raw/Tree) vs Editor (Quick Tags) <!-- id: 44 -->
+    - [x] Soporte "MUY completo" (Streams, XML metadata, Codecs) <!-- id: 45 -->
+    - [x] Mejora UI: Visor Jerárquico (TreeView) en vez de Raw XML <!-- id: 46 -->
+    - [x] UI Minimalista (Sin bordes, mejor tipografía, limpio) <!-- id: 46b -->
+    - [x] UI Dashboard: Cards & Grids (ItemsControl) <!-- id: 46c -->
+    - [x] UI Accordion: ExifTool, FFProbe, HexDump <!-- id: 50 -->
+- [x] Fase 5: Editor de Metadatos (Tags & Covers) <!-- id: 36 -->
+    - [x] Nueva Pestaña "Metadata" en UI <!-- id: 37 -->
+    - [x] Servicio de Lectura de Metadata (FFProbe/FFMpeg parsing) <!-- id: 38 -->
+    - [x] UI de Edición (Título, Artista, Album, Año, Cover) <!-- id: 39 -->
+    - [x] Lógica de Guardado (FFMpeg in-place replace) <!-- id: 40 -->
+- [ ] Fase 8: Preparación Alpha Release <!-- id: 51 -->
+    - [ ] Agregar advertencia "Alpha Version" al inicio <!-- id: 52 -->
+    - [ ] Crear documentación `README.md` para GitHub <!-- id: 53 -->
+    - [ ] Verificar script `publish.bat` para ZIP portable <!-- id: 54 -->
+- [/] Fase 9: Rediseño "Wizard" y Temas <!-- id: 55 -->
+    - [x] Planificación de UI/UX Paso a Paso <!-- id: 56 -->
+    - [x] Sistema de Temas (Navy/Dark vs Sky/Light) <!-- id: 57 -->
+    - [x] Implementar Servicio de Extracción de Metadatos (Pre-fetch) <!-- id: 58 -->
+    - [x] Refactor UI: Flujo Descargador (Input -> Loading -> Options) <!-- id: 59 -->
+    - [x] Refactor UI: Flujo Convertidor (Drop -> Options) <!-- id: 60 -->
+    - [x] Corrección Bug: Descargas WAV y Layout UI <!-- id: 61 -->

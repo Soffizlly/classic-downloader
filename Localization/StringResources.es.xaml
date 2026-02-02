@@ -1,0 +1,75 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <system:String x:Key="WindowTitle">Classic Downloader</system:String>
+    <system:String x:Key="HeaderTitle">Classic Downloader</system:String>
+    <system:String x:Key="StatusReady">Listo</system:String>
+    
+    <!-- Tabs -->
+    <system:String x:Key="TabDownloader">Descargador</system:String>
+    <system:String x:Key="TabConverter">Convertidor</system:String>
+    <system:String x:Key="TabSoundCloud">SoundCloud</system:String>
+
+    <!-- Downloader -->
+    <system:String x:Key="LabelUrl">URL</system:String>
+    <system:String x:Key="BtnDownload">Descargar</system:String>
+    <system:String x:Key="ChkMetadata">Metadatos</system:String>
+    <system:String x:Key="LabelQuality">Calidad / Formato</system:String>
+    <system:String x:Key="LabelOutputFolder">Carpeta de Salida:</system:String>
+    <system:String x:Key="BtnBrowse">Examinar...</system:String>
+    <system:String x:Key="LabelResolution">Resolución de Video</system:String>
+    <system:String x:Key="BtnSelectImage">Seleccionar Carátula...</system:String>
+    <system:String x:Key="MsgImageSelected">Imagen Seleccionada</system:String>
+
+    <!-- Metadata Editor -->
+    <system:String x:Key="TabMetadata">Editor de Etiquetas</system:String>
+    <system:String x:Key="LabelTitle">Título</system:String>
+    <system:String x:Key="LabelArtist">Artista</system:String>
+    <system:String x:Key="LabelAlbum">Álbum</system:String>
+    <system:String x:Key="LabelYear">Año</system:String>
+    <system:String x:Key="LabelGenre">Género</system:String>
+    <system:String x:Key="BtnSaveMetadata">Guardar Cambios</system:String>
+    <system:String x:Key="BtnChangeCover">Cambiar Portada...</system:String>
+    <system:String x:Key="MsgMetadataSaved">¡Etiquetas Guardadas!</system:String>
+    
+    <!-- Converter -->
+    <system:String x:Key="LabelInputFile">Archivo</system:String>
+    <system:String x:Key="BtnConvert">Convertir</system:String>
+    <system:String x:Key="MsgDropFile">Soltar archivo</system:String>
+
+    <!-- SoundCloud -->
+    <system:String x:Key="MsgSoundCloud">Para la mejor calidad posible en SoundCloud, recomendamos:</system:String>
+    <system:String x:Key="MsgSoundCloudNote">(Solo para SoundCloud)</system:String>
+    <system:String x:Key="LinkLucida">Lucida.to</system:String>
+
+    <system:String x:Key="LabelAlternatives">Alternativas y Herramientas Útiles:</system:String>
+    <system:String x:Key="LinkCobalt">Cobalt Tools</system:String>
+    <system:String x:Key="LinkConverter">FreeConvert (Sin Anuncios)</system:String>
+    
+    <!-- Formats -->
+    <system:String x:Key="FmtVideoMp4">Video (MP4) - Mejor Calidad</system:String>
+    <system:String x:Key="FmtVideoMkv">Video (MKV) - Mejor Calidad</system:String>
+    <system:String x:Key="FmtVideoWebm">Video (WEBM) - Mejor Calidad</system:String>
+    <system:String x:Key="FmtAudioWebm">Audio (WEBM) - Mejor Calidad</system:String>
+    <system:String x:Key="FmtAudioWav">Audio (WAV) - Sin Pérdida</system:String>
+    <system:String x:Key="FmtAudioFlac">Audio (FLAC) - Sin Pérdida</system:String>
+    <system:String x:Key="FmtAudioMp3">Audio (MP3) - 320kbps</system:String>
+    <system:String x:Key="FmtAudioM4a">Audio (M4A) - AAC</system:String>
+
+    <!-- Logs & Messages -->
+    <system:String x:Key="MsgStarting">Iniciando...</system:String>
+    <system:String x:Key="MsgYtDlpNotFound">No se encontró yt-dlp.exe.</system:String>
+    <system:String x:Key="MsgFfmpegNotFound">No se encontró ffmpeg.exe.</system:String>
+    <system:String x:Key="MsgCanceled">Cancelado</system:String>
+    <system:String x:Key="MsgCanceledLog">CANCELADO POR EL USUARIO.</system:String>
+    <system:String x:Key="MsgErrorPrefix">ERROR:</system:String>
+
+    <!-- Alpha Warning -->
+    <system:String x:Key="MsgAlphaTitle">Versión Alpha - Solo Pruebas</system:String>
+    <system:String x:Key="MsgAlphaBody">Advertencia: Esta es una versión ALPHA.&#x0a;&#x0a;Puede contener errores o funciones incompletas.&#x0a;Si encuentras algún error, por favor copia los registros (Show Logs) y envíalos a @soffizlly en Discord.</system:String>
+
+    <!-- Common -->
+    <system:String x:Key="MsgProcessing">Trabajando...</system:String>
+    <system:String x:Key="MsgSuccess">Listo</system:String>
+    <system:String x:Key="MsgError">Error</system:String>
+</ResourceDictionary>
