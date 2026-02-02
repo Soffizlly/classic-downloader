@@ -2,42 +2,43 @@
 
 ![Banner](https://via.placeholder.com/800x200?text=Classic+Downloader)
 
-Una aplicación de escritorio nativa para Windows (WPF) moderna y ligera para descargar videos y música de YouTube con alta calidad y etiquetado automático de metadatos.
+A modern, lightweight native Windows (WPF) desktop application for downloading high-quality video and music from YouTube, featuring automatic metadata tagging.
 
-## Características ✨
+## Features ✨
 
-*   **Descarga de Video 4K/1080p:** Soporte para resoluciones altas con conversión automática a MP4 compatible.
-*   **Audio de Alta Fidelidad:** Descarga y conversión de audio a MP3/M4A/FLAC con bitrate de hasta 320kbps.
-*   **Metadatos Automáticos:** Agrega carátula (thumbnail), título, artista y álbum automáticamente a los archivos descargados.
-*   **Interfaz Moderna:** Diseño limpio inspirado en Windows 11 (Fluent Design) con temas y animaciones nativas.
-*   **Multi-idioma:** Soporte para inglés y español.
-*   **Ligero y Rápido:** Construido en .NET Framework eficiente.
+*   **4K/1080p Video Download:** Supports high resolutions with automatic conversion to compatible MP4.
+*   **High-Fidelity Audio:** Downloads and converts audio to MP3/M4A/FLAC with bitrates up to 320kbps.
+*   **Automatic Metadata:** Automatically adds cover art (thumbnail), title, artist, and album tags to downloaded files.
+*   **Modern Interface:** Clean design inspired by Windows 11 (Fluent Design) with native themes and animations.
+*   **Metadata Viewer:** Built-in tool to inspect detailed properties of your media files (using ExifTool).
+*   **Multi-language:** Support for English and Spanish.
+*   **Lightweight & Fast:** Built on the efficient .NET Framework.
 
-## Requisitos 🛠️
+## Requirements 🛠️
 
-*   Windows 10 o Windows 11.
+*   Windows 10 or Windows 11.
 *   .NET Framework 4.7.2.
-*   Conexión a Internet.
+*   Internet connection.
 
-## Instalación 🚀
+## Installation 🚀
 
-1.  Descarga la última versión desde la sección de [Releases](https://github.com/TU_USUARIO/TU_REPO/releases).
-2.  Extrae el archivo ZIP.
-3.  Ejecuta `MultiLangApp.exe`.
+1.  Download the latest portable `.zip` from the [Releases](https://github.com/Soffizlly/classic-downloader/releases) section.
+2.  Extract the ZIP file.
+3.  Run `MultiLangApp.exe`.
 
-## Uso 📖
+## Usage 📖
 
-1.  Copia un enlace de YouTube.
-2.  Pégalo en la aplicación y presiona **Analizar**.
-3.  Selecciona el formato deseado (Video MP4, Audio MP3, etc.).
-4.  ¡Haz clic en **Descargar**! El archivo se guardará en tu carpeta de Descargas (o la que hayas configurado).
+1.  Copy a YouTube link.
+2.  Paste it into the application and click **Analyze**.
+3.  Select the desired format (Video MP4, Audio MP3, etc.).
+4.  Click **Download**! The file will be saved to your Downloads folder (or configured path).
 
-## Licencia 📄
+## License 📄
 
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
-Puedes usarlo y modificarlo libremente, siempre y cuando mantengas la atribución al autor original.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+You are free to use and modify it, provided you keep attribution to the original author.
 
-## Créditos
+## Credits
 
-Desarrollado por **Soffizlly**.
-Utiliza `yt-dlp` y `ffmpeg` para el procesamiento multimedia.
+Developed by **Soffizlly**.
+Powered by `yt-dlp`, `ffmpeg`, and `exiftool` for media processing.
